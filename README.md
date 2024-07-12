@@ -7,13 +7,13 @@ head 안에 배치할 수 있는 요소
 
     <title>NAVER<title>
 
-  + <base>
+  + base
   문서안의 모든 상대 URL 이 사용할 기준 URL을 지정합니다. 
   
   문서에는 하나의 <base> 요소만 존재할수 있습니다.
 
       <base href="/assets/images/" />
 
-  + <link>
+  + link
 
   요소는 현재 문서와 외부 리소스의 관계를 명시합니다. <link>는 스타일 시트를 연결할때 제일 많이 사용하지만, 사이트 아이콘 연결등 여러가지로 쓰일수 있습니다. 
